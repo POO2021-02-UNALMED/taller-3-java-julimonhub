@@ -1,10 +1,8 @@
 package taller3.televisores;
 
-
 public class Marca{
 	
 		private String nombre;
-		
 		
 		public Marca(String nombre) {
 				this.nombre= nombre; 
@@ -12,7 +10,6 @@ public class Marca{
 		
 		public void setNombre(String nombre) {
 						this.nombre=nombre;
-						
 		}
 
 		public String getNombre() {
