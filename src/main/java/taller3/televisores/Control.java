@@ -8,9 +8,9 @@ public class Control{
 		tv.setControl(this);
 	}
 	
-	public void setTv){
+	public void (setTv){
 		this.tv=tv;
-}
+    }
 	
 	public TV getTV() {
 		return tv;
