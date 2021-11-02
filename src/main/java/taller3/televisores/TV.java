@@ -4,7 +4,7 @@ public class Control{
 	TV tv;
 	
 	pulic void enlazar(TV tv) {
-		this .tv==tv
+		this.tv=tv
 		tv.setControl(this);
 	}
 	
@@ -17,7 +17,7 @@ public class Control{
 	}
 	
 	public void canalup() {
-		tv.canalup();
+		tv.canalUp();
 	}
 	
 	public void canalDown() {
@@ -33,7 +33,7 @@ public class Control{
 	}
 	
 	public void turnOn() {
-		tv.turnon();
+		tv.turnOn();
 	}
 	
 	public void turnOff(){
@@ -44,5 +44,3 @@ public class Control{
 		tv.setCanal(canal);
 	}
 }
-	}
-	}
